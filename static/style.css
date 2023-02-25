@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@200&family=Fredoka:wght@300&family=Lato:wght@100;300;400&family=Playfair+Display+SC:ital@1&family=Poppins:ital,wght@0,400;1,700&family=Press+Start+2P&family=Roboto+Mono:wght@300&display=swap");
+body {
+  margin: 0;
+}
+
+/*
+NAV-hero
+*/
+.primary-nav-hero {
+  display: block;
+  font-family: "Roboto mono";
+  font-size: 1.5em;
+  background-color: #003366;
+  margin: 0;
+  text-align: center;
+}
+
+.primary-nav-hero li,
+.primary-nav-hero a {
+  color: #f9e64f;
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.primary-nav-hero li {
+  margin: 0 30px;
+}
+
+.primary-nav-hero ul {
+  margin: 0;
+  padding: 24px 0;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/*
+HERO
+*/
+.hero {
+  background-color: #003366;
+}
+
+.introduction {
+  text-align: center;
+  width: 100%;
+}
+
+.introduction p {
+  color: #f9e64f;
+  font-size: 1em;
+  font-family: "Press Start 2P";
+  line-height: 25px;
+  padding: 0 0 20px 20px;
+  text-align: center;
+}
+
+.introduction h1 {
+  color: #f9e64f;
+  font-size: 4em;
+  font-family: "Playfair Display SC";
+  margin: 0;
+}
+
+#theBook {
+  font-size: 50px;
+  font-family: 'Roboto Mono';
+  padding-bottom: 20px;
+  color: #f9e64f;
+}
+
+.button {
+  background: antiquewhite;
+  border: 3px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 5em;
+  margin: 1em;
+}
+
+/*
+NAV LIST OF BOOKS
+*/
+.primary-nav {
+  display: block;
+  font-family: "Roboto mono";
+  font-size: 1.5em;
+  background-color: #ff7400;
+  margin: 0;
+  text-align: center;
+}
+
+.primary-nav li,
+.primary-nav a {
+  color: #003366;
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.primary-nav ul {
+  margin: 0;
+  padding: 24px 0;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/*
+List of books main
+*/
+.welcome {
+  padding-left: 20px;
+  font-family: "Exo";
+  text-align: center;
+  background-color: #ff7400;
+  padding-bottom: 20px;
+}
+
+.welcome h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/*
+List of the books
+*/
+.list-of-books {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1.6em;
+  text-align: left;
+  font-family: Fredoka;
+}
+/*# sourceMappingURL=main.css.map */
+
+@media screen and (max-width:580px)  {
+    .introduction p{
+        display: none;
+    }
+}
